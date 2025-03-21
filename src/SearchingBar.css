@@ -1,0 +1,48 @@
+.Heading{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+
+.search-input{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 30px;
+}
+
+.List{
+  margin: auto;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 30px;
+}
+
+.ListItem{
+  align-items: left;
+}
+
+.results-container{
+  margin: auto;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  max-height: 500px;
+  overflow-y: scroll;
+  border: 1px solid black;
+}
+
+.result{
+  padding: 5px;
+}
+
+.result:hover{
+  background-color: lightgray;
+}
