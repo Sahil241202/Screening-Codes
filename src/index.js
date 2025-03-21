@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import SearchingBar from './SearchingBar';
+import Pagination from './Pagination';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SearchingBar />
+    <Pagination />
   </React.StrictMode>
 );
 
